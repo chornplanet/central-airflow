@@ -40,4 +40,4 @@ Open Airflow:
 http://localhost:8088
 ```
 
-DAG files belong in `dags/`. Plugins belong in `plugins/`. Airflow runtime state and logs are stored in Docker-managed volumes.
+DAG files belong in `dags/`. Plugins belong in `plugins/`. Airflow runtime state, logs, and the local metadata database are stored in Docker-managed volumes.
